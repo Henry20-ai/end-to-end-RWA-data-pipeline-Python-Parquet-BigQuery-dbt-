@@ -1,4 +1,4 @@
-# 🚀 End-to-End RWA Data Pipeline: CoinGecko → Parquet → BigQuery → dbt
+# End-to-End RWA Data Pipeline: CoinGecko → Parquet → BigQuery → dbt
 
 A modern data pipeline for extracting, storing, and transforming Real-World Asset (RWA) market data using Python, Apache Parquet, Google BigQuery, and dbt Core.
 
