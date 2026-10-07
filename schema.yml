@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: rwa_market_mart
+    description: "Analytical view of RWA market data ranked by trading volume."
+    columns:
+      - name: token_id
+        description: "Unique identifier for the token."
+        tests:
+          - not_null
+          - unique
+      - name: symbol
+        description: "Ticker symbol of the token."
+      - name: name
+        description: "Full name of the token."
+      - name: current_price
+        description: "Current market price in USD."
+      - name: market_cap
+        description: "Current market capitalization in USD."
+      - name: total_volume
+        description: "Total trading volume in USD."
+      - name: circulating_supply
+        description: "Circulating token supply."
+      - name: ingested_at
+        description: "Timestamp when the token record was ingested."
+      - name: volume_rank
+        description: "Rank of the token by total trading volume."
